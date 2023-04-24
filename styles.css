@@ -1,0 +1,45 @@
+padding-top
+
+.main-nav {
+    background-color: #eee; /* light gray */
+  }
+
+  .main-nav a {
+    color: #854b85;         /* text */
+  }
+
+  .main-nav ul {
+    list-style-type: none;  /* Hide the bullets */
+    display: flex;          /* Arrange horizontally, not vertically */
+  }
+
+  .main-nav li {
+    padding: 1em 2em;           /* Add a little space around each link */
+  }
+
+  .main-nav .active {
+    background-color: #854b6d;  /* box */
+  }
+
+  .main-nav .active a {
+    color: #eee;            /* light gray, same as navbar */
+  }
+
+.main-nav {
+    text-align: center;
+}
+
+body {
+  color:aquamarine        /* placeholder color so i can see text for now */
+}
+
+* {
+
+  text-align: center;
+  
+  }
+
+  p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
