@@ -45,10 +45,11 @@ body {
   }
 
   body {
-    cursor: url("images/test.png");
+    cursor: url("images/test.png"), auto;
     margin: auto;
     width: auto;
   }
+
 
 .title {
   display: block;
