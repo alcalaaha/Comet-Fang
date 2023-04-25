@@ -11,20 +11,34 @@
         <li><a href="writing.html">Writing</a></li>
         <li><a href="fibers.html">Fibers</a></li>
          <li><a href="installation.html">Installations</a></li>
-         <li><a href="about.html">About the Artist</a></li>
+         <li><a href="about.html">About</a></li>
   
       </ul>
     </nav>
 
     <style>
-      body {
-            background-image: url(bg1.jpg);
-         }
-    </style>
-    
-  </head>
-
-  <body>
-    <img src="titletext.png"/>
-  </body>
+    .leaves
+    {
+      position:absolute;
+      top: 70px;
+      left: 0px;
+      height: 100vh;
+      z-index: 1;
+    }
+    .title
+    {
+      position:absolute;
+      top: 150px;
+      left: 0px;
+      height: 300px;
+      z-index: 2;
+    }
+  </style>
+</head>
+<body>
+  <div style="text-align: center;">
+  <img src="images/bg1.jpg" class="leaves" >
+  <img src="images/titletext.png" class="title">
+</div>
+</body>
 </html>
